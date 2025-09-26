@@ -1,0 +1,55 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# Arquivos temporários
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Testes / cobertura
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# IDEs / editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# uv (environments / lock)
+# ----------------------------
+.uv/
+.uv-cache/
+uv.lock
